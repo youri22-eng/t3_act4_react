@@ -82,6 +82,7 @@ button:hover {
   align-items: center;
   padding: 10px;
   background: #1818b9;
+  color: #ffffff;    
   border-radius: 6px;
   margin-bottom: 8px;
 }
@@ -91,6 +92,7 @@ button:hover {
   align-items: center;
   gap: 8px;
   cursor: pointer;
+  color: #ffffff; 
 }
 
 .tarea.completada span {
