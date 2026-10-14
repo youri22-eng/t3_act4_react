@@ -8,7 +8,7 @@
 //   onEliminar  -> función que se ejecuta al dar clic en Eliminar
 function Tarea({ texto, completada, onCompletar, onEliminar }) {
   return (
-    // En JSX se usa className en lugar de class.
+    // En JSX se usa className en lugar de class
     // Si la tarea está completada, se le agrega la clase "completada"
     <li className={completada ? "tarea completada" : "tarea"}>
       <label>
