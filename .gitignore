@@ -1,17 +1,17 @@
-# ===== Dependencias =====
+#  Dependencias 
 node_modules/
 
-# ===== Carpetas de build / despliegue =====
+# Carpetas de build / despliegue 
 dist/
 dist-ssr/
 build/
 
-# ===== Variables de entorno (contienen datos secretos) =====
+# Variables de entorno  
 .env
 .env.*
 !.env.example
 
-# ===== Logs =====
+# Logs
 logs/
 *.log
 npm-debug.log*
@@ -20,15 +20,15 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# ===== Archivos de configuracion local =====
+# Archivos de configuracion local   
 *.local
 
-# ===== Cache y cobertura =====
+# Cache y cobertura 
 .vite/
 .eslintcache
 coverage/
 
-# ===== Archivos del editor =====
+# Archivos del editor
 .vscode/*
 !.vscode/extensions.json
 .idea/
@@ -38,6 +38,6 @@ coverage/
 *.sln
 *.sw?
 
-# ===== Archivos del sistema operativo =====
+# Archivos del sistema operativo 
 .DS_Store
 Thumbs.db
