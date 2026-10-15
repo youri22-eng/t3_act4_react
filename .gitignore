@@ -1,5 +1,18 @@
-# Logs
-logs
+# ===== Dependencias =====
+node_modules/
+
+# ===== Carpetas de build / despliegue =====
+dist/
+dist-ssr/
+build/
+
+# ===== Variables de entorno (contienen datos secretos) =====
+.env
+.env.*
+!.env.example
+
+# ===== Logs =====
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -7,18 +20,24 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# ===== Archivos de configuracion local =====
 *.local
 
-# Editor directories and files
+# ===== Cache y cobertura =====
+.vite/
+.eslintcache
+coverage/
+
+# ===== Archivos del editor =====
 .vscode/*
 !.vscode/extensions.json
-.idea
-.DS_Store
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# ===== Archivos del sistema operativo =====
+.DS_Store
+Thumbs.db
